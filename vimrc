@@ -216,6 +216,13 @@ set conceallevel=2
 let g:tex_conceal= 'adgms'
 hi Conceal ctermbg=Black
 
+
+
+" Load matchit.vim, but only if the user hasn't installed a newer version.
+if !exists('g:loaded_matchit') && findfile('plugin/matchit.vim', &rtp) ==# ''
+	runtime! macros/matchit.vim
+endif
+
 " paste mode
 " using unimpaired for this now
 "set pastetoggle=<leader>p
