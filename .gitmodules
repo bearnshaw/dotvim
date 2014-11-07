@@ -1,0 +1,114 @@
+[submodule "bundle/vim-yaml"]
+	path = bundle/vim-yaml
+	url = https://github.com/avakhov/vim-yaml
+[submodule "bundle/Gundo"]
+	path = bundle/Gundo
+	url = git@github.com:vim-scripts/Gundo.git
+[submodule "bundle/VimCalc"]
+	path = bundle/VimCalc
+	url = git@github.com:gregsexton/VimCalc.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
+[submodule "bundle/ag.vim"]
+	path = bundle/ag.vim
+	url = https://github.com/rking/ag.vim
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+	url = git@github.com:corntrace/bufexplorer.git
+[submodule "bundle/bufkill.vim"]
+	path = bundle/bufkill.vim
+	url = git@github.com:vim-scripts/bufkill.vim.git
+[submodule "bundle/ctrlp-extensions.vim"]
+	path = bundle/ctrlp-extensions.vim
+	url = git@github.com:sgur/ctrlp-extensions.vim.git
+[submodule "bundle/ctrlp-funky"]
+	path = bundle/ctrlp-funky
+	url = git@github.com:tacahiroy/ctrlp-funky.git
+[submodule "bundle/ctrlp-modified.vim"]
+	path = bundle/ctrlp-modified.vim
+	url = git@github.com:jasoncodes/ctrlp-modified.vim.git
+[submodule "bundle/ctrlp.vim"]
+	path = bundle/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "bundle/mustache.vim"]
+	path = bundle/mustache.vim
+	url = git://github.com/juvenn/mustache.vim.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = git@github.com:scrooloose/nerdcommenter.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/open-browser-github.vim"]
+	path = bundle/open-browser-github.vim
+	url = git@github.com:tyru/open-browser-github.vim.git
+[submodule "bundle/open-browser.vim"]
+	path = bundle/open-browser.vim
+	url = git@github.com:tyru/open-browser.vim.git
+[submodule "bundle/paredit.vim"]
+	path = bundle/paredit.vim
+	url = git://github.com/vim-scripts/paredit.vim.git
+[submodule "bundle/python-mode"]
+	path = bundle/python-mode
+	url = git://github.com/klen/python-mode.git
+[submodule "bundle/rainbow_parentheses.vim"]
+	path = bundle/rainbow_parentheses.vim
+	url = git://github.com/kien/rainbow_parentheses.vim.git
+[submodule "bundle/rename.vim"]
+	path = bundle/rename.vim
+	url = git://github.com/danro/rename.vim.git
+[submodule "bundle/vim-abolish"]
+	path = bundle/vim-abolish
+	url = git@github.com:tpope/vim-abolish.git
+[submodule "bundle/vim-ansible-yaml"]
+	path = bundle/vim-ansible-yaml
+	url = git@github.com:chase/vim-ansible-yaml.git
+[submodule "bundle/vim-classpath"]
+	path = bundle/vim-classpath
+	url = git://github.com/tpope/vim-classpath.git
+[submodule "bundle/vim-clojure-static"]
+	path = bundle/vim-clojure-static
+	url = git://github.com/guns/vim-clojure-static.git
+[submodule "bundle/vim-coffee-script"]
+	path = bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/vim-fireplace"]
+	path = bundle/vim-fireplace
+	url = git://github.com/tpope/vim-fireplace.git
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-latex-suite"]
+	path = bundle/vim-latex-suite
+	url = https://github.com/gerw/vim-latex-suite.git
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = https://github.com/groenewege/vim-less
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/vim-matchit"]
+	path = bundle/vim-matchit
+	url = git@github.com:tsaleh/vim-matchit.git
+[submodule "bundle/vim-powerline"]
+	path = bundle/vim-powerline
+	url = git://github.com/Lokaltog/vim-powerline.git
+[submodule "bundle/vim-python-test-runner"]
+	path = bundle/vim-python-test-runner
+	url = https://github.com/JarrodCTaylor/vim-python-test-runner
+[submodule "bundle/vim-redl"]
+	path = bundle/vim-redl
+	url = git://github.com/dgrnbrg/vim-redl.git
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
+	url = git://github.com/tpope/vim-unimpaired.git
