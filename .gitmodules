@@ -3,31 +3,31 @@
 	url = https://github.com/avakhov/vim-yaml
 [submodule "bundle/Gundo"]
 	path = bundle/Gundo
-	url = git@github.com:vim-scripts/Gundo.git
+	url = https://github.com/vim-scripts/Gundo.git
 [submodule "bundle/VimCalc"]
 	path = bundle/VimCalc
-	url = git@github.com:gregsexton/VimCalc.git
+	url = https://github.com/gregsexton/VimCalc.git
 [submodule "bundle/ag.vim"]
 	path = bundle/ag.vim
 	url = https://github.com/rking/ag.vim
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
-	url = git@github.com:corntrace/bufexplorer.git
+	url = https://github.com/corntrace/bufexplorer.git
 [submodule "bundle/bufkill.vim"]
 	path = bundle/bufkill.vim
-	url = git@github.com:vim-scripts/bufkill.vim.git
+	url = https://github.com/vim-scripts/bufkill.vim.git
 [submodule "bundle/ctrlp-extensions.vim"]
 	path = bundle/ctrlp-extensions.vim
-	url = git@github.com:sgur/ctrlp-extensions.vim.git
+	url = https://github.com/sgur/ctrlp-extensions.vim.git
 [submodule "bundle/ctrlp-funky"]
 	path = bundle/ctrlp-funky
-	url = git@github.com:tacahiroy/ctrlp-funky.git
+	url = https://github.com/tacahiroy/ctrlp-funky.git
 [submodule "bundle/ctrlp-modified.vim"]
 	path = bundle/ctrlp-modified.vim
-	url = git@github.com:jasoncodes/ctrlp-modified.vim.git
+	url = https://github.com/jasoncodes/ctrlp-modified.vim.git
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
-	url = git@github.com:kien/ctrlp.vim.git
+	url = https://github.com/kien/ctrlp.vim.git
 [submodule "bundle/mustache.vim"]
 	path = bundle/mustache.vim
 	url = git://github.com/juvenn/mustache.vim.git
@@ -36,10 +36,10 @@
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "bundle/open-browser-github.vim"]
 	path = bundle/open-browser-github.vim
-	url = git@github.com:tyru/open-browser-github.vim.git
+	url = https://github.com/tyru/open-browser-github.vim.git
 [submodule "bundle/open-browser.vim"]
 	path = bundle/open-browser.vim
-	url = git@github.com:tyru/open-browser.vim.git
+	url = https://github.com/tyru/open-browser.vim.git
 [submodule "bundle/paredit.vim"]
 	path = bundle/paredit.vim
 	url = git://github.com/vim-scripts/paredit.vim.git
@@ -54,10 +54,10 @@
 	url = git://github.com/danro/rename.vim.git
 [submodule "bundle/vim-abolish"]
 	path = bundle/vim-abolish
-	url = git@github.com:tpope/vim-abolish.git
+	url = https://github.com/tpope/vim-abolish.git
 [submodule "bundle/vim-ansible-yaml"]
 	path = bundle/vim-ansible-yaml
-	url = git@github.com:chase/vim-ansible-yaml.git
+	url = https://github.com/chase/vim-ansible-yaml.git
 [submodule "bundle/vim-classpath"]
 	path = bundle/vim-classpath
 	url = git://github.com/tpope/vim-classpath.git
@@ -105,7 +105,7 @@
 	url = git://github.com/tpope/vim-unimpaired.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
-	url = git@github.com:ervandew/supertab.git
+	url = https://github.com/ervandew/supertab.git
 [submodule "bundle/vim-commentary"]
 	path = bundle/vim-commentary
-	url = git@github.com:tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary.git
