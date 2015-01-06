@@ -152,31 +152,18 @@ autocmd BufWinLeave * call clearmatches()
 function! TrimWhiteSpace()
     %s/\s\+$//e
 endfunction
-
 autocmd BufWritePre *.rb,*.edn,*.clj,*.xml,*.html,*.html.mustache,*.css,*.scss,*.less,*.js,*.coffee,*.sql,*.vim :call TrimWhiteSpace()
 
-" tabstop = 2 for sh scripts
-au BufNewFile,BufRead * if &ft == 'sh' | setl ts=2 sw=2 | endif
-
-" python
-"autocmd BufNewFile,BufRead *.py setl ts=4 sts=4 sw=4 tw=80 smarttab expandtab
-"autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
-
-" Ruby
-autocmd BufNewFile,BufRead *rb setl expandtab sw=2 ts=2 sts=2
-
-" edn
-autocmd BufNewFile,BufRead *.edn setl expandtab sw=2 ts=2 sts=2
+" Ruby, edn, sh
+autocmd BufNewFile,BufRead *.rb,*.edn setl expandtab sw=2 ts=2 sts=2
+autocmd BufNewFile,BufRead * if &ft == 'sh' | setl expandtab ts=2 sw=2 | endif
 
 " web syntax: xml, html, css, scss, less, js, coffee
 autocmd BufNewFile,BufRead *.xml,*.html,*.html.mustache,*.css,*.scss,*.less,*.js,*.coffee,*.sql,*.vim set ts=2 sts=2 sw=2 smarttab expandtab
 autocmd BufNewFile,BufReadPost *.coffee setl foldmethod=indent " nofoldenable
 
 " markdown
-au BufRead,BufNewFile *.md setlocal textwidth=80
-
-"
-"au BufNewFile,BufRead * if &syntax == '' | set syntax=html | endif
+au BufRead,BufNewFile *.md setl textwidth=80
 
 " Powerline
 set nocompatible   " Disable vi-compatibility
@@ -216,16 +203,10 @@ set conceallevel=2
 let g:tex_conceal= 'adgms'
 hi Conceal ctermbg=Black
 
-
-
 " Load matchit.vim, but only if the user hasn't installed a newer version.
 if !exists('g:loaded_matchit') && findfile('plugin/matchit.vim', &rtp) ==# ''
 	runtime! macros/matchit.vim
 endif
-
-" paste mode
-" using unimpaired for this now
-"set pastetoggle=<leader>p
 
 " open and close quickfix window
 nnoremap <Leader>qo :copen<CR>
