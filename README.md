@@ -23,8 +23,4 @@ pathogen-managed plugins.  Once you clone, please run
 ```
 git submodule update --init --recursive
 ```
-to get all the plugins (and the submodules those plugins depend on).  The only
-plugin that will give you grief is
-[YouCompleteMe](https://github.com/Valloric/YouCompleteMe).  Believe me, you
-want this, but you'll need to visit the link to see how to install it after
-cloning.
+to get all the plugins (and the submodules those plugins depend on).
