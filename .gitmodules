@@ -112,3 +112,15 @@
 [submodule "bundle/jedi-vim"]
 	path = bundle/jedi-vim
 	url = git@github.com:davidhalter/jedi-vim.git
+[submodule "bundle/vim-dispatch"]
+	path = bundle/vim-dispatch
+	url = git://github.com/tpope/vim-dispatch.git
+[submodule "bundle/vim-leiningen"]
+	path = bundle/vim-leiningen
+	url = git://github.com/tpope/vim-leiningen.git
+[submodule "bundle/vim-projectionist"]
+	path = bundle/vim-projectionist
+	url = git://github.com/tpope/vim-projectionist.git
+[submodule "bundle/vim-cython"]
+	path = bundle/vim-cython
+	url = https://github.com/tshirtman/vim-cython.git
