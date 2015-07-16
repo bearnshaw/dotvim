@@ -253,6 +253,7 @@ nnoremap <Leader>u :GundoToggle<CR>
 
 " redl
 nnoremap <Leader>rr :Repl<CR>
+nnoremap <Leader>rh :ReplHere<CR>
 nnoremap <Leader>rq :Req<CR>
 
 " fugitive helpers
