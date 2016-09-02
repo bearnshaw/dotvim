@@ -301,3 +301,6 @@ let g:pymode_run = 0
 
 " python mode: run PymodeLint
 nnoremap<Leader>pl :PymodeLint<CR>
+
+" vim-markdown-preview: use grip
+let vim_markdown_preview_github=1
