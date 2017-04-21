@@ -118,12 +118,15 @@
 [submodule "bundle/vim-leiningen"]
 	path = bundle/vim-leiningen
 	url = git://github.com/tpope/vim-leiningen.git
-[submodule "bundle/vim-projectionist"]
-	path = bundle/vim-projectionist
-	url = git://github.com/tpope/vim-projectionist.git
 [submodule "bundle/vim-cython"]
 	path = bundle/vim-cython
 	url = https://github.com/tshirtman/vim-cython.git
 [submodule "bundle/vim-markdown-preview"]
 	path = bundle/vim-markdown-preview
 	url = https://github.com/JamshedVesuna/vim-markdown-preview.git
+[submodule "bundle/vim-json"]
+	path = bundle/vim-json
+	url = https://github.com/elzr/vim-json.git
+[submodule "bundle/jshint.vim"]
+	path = bundle/jshint.vim
+	url = https://github.com/wookiehangover/jshint.vim.git

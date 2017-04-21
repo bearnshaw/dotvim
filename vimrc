@@ -152,14 +152,14 @@ autocmd BufWinLeave * call clearmatches()
 function! TrimWhiteSpace()
     %s/\s\+$//e
 endfunction
-autocmd BufWritePre *.rb,*.edn,*.clj,*.xml,*.html,*.html.mustache,*.css,*.scss,*.less,*.js,*.coffee,*.sql,*.vim :call TrimWhiteSpace()
+autocmd BufWritePre *.rb,*.edn,*.clj,*.xml,*.html,*.html.mustache,*.css,*.scss,*.less,*.json,*.js,*.coffee,*.sql,*.vim :call TrimWhiteSpace()
 
 " Ruby, edn, sh
 autocmd BufNewFile,BufRead *.rb,*.edn setl expandtab sw=2 ts=2 sts=2
 autocmd BufNewFile,BufRead * if &ft == 'sh' | setl expandtab ts=2 sw=2 | endif
 
 " web syntax: xml, html, css, scss, less, js, coffee
-autocmd BufNewFile,BufRead *.xml,*.html,*.html.mustache,*.css,*.scss,*.less,*.js,*.coffee,*.sql,*.vim set ts=2 sts=2 sw=2 smarttab expandtab
+autocmd BufNewFile,BufRead *.xml,*.html,*.html.mustache,*.css,*.scss,*.less,*.js,*.json,*.coffee,*.sql,*.vim set ts=2 sts=2 sw=2 smarttab expandtab
 autocmd BufNewFile,BufReadPost *.coffee setl foldmethod=indent " nofoldenable
 
 " markdown
@@ -304,3 +304,6 @@ nnoremap<Leader>pl :PymodeLint<CR>
 
 " vim-markdown-preview: use grip
 let vim_markdown_preview_github=1
+
+" jshint-vim: remove highlighting
+let g:JSHintHighlightErrorLine = 1
