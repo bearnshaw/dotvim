@@ -298,6 +298,7 @@ nnoremap<Leader>rt :RerunLastTests<CR>
 let g:pymode_doc = 0
 let g:pymode_rope = 0
 let g:pymode_run = 0
+let g:pymode_python = 'python3'
 
 " python mode: run PymodeLint
 nnoremap<Leader>pl :PymodeLint<CR>

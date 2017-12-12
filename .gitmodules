@@ -127,3 +127,9 @@
 [submodule "bundle/python-mode"]
 	path = bundle/python-mode
 	url = https://github.com/python-mode/python-mode.git
+[submodule "bundle/vim-conda"]
+	path = bundle/vim-conda
+	url = https://github.com/ryanfreckleton/vim-conda
+[submodule "bundle/jedi-vim"]
+	path = bundle/jedi-vim
+	url = https://github.com/davidhalter/jedi-vim
