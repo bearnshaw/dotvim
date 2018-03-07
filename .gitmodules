@@ -1,9 +1,6 @@
 [submodule "bundle/vim-yaml"]
 	path = bundle/vim-yaml
 	url = https://github.com/avakhov/vim-yaml
-[submodule "bundle/Gundo"]
-	path = bundle/Gundo
-	url = https://github.com/vim-scripts/Gundo.git
 [submodule "bundle/VimCalc"]
 	path = bundle/VimCalc
 	url = https://github.com/gregsexton/VimCalc.git
@@ -133,3 +130,6 @@
 [submodule "bundle/jedi-vim"]
 	path = bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim
+[submodule "bundle/gundo.vim"]
+	path = bundle/gundo.vim
+	url = git@github.com:sjl/gundo.vim.git

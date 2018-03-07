@@ -249,6 +249,7 @@ nnoremap <Leader>fu :CtrlPFunky<Cr>
 nnoremap <Leader>fU :execute 'CtrlPFunky ' . expand('<cword>')<CR>
 
 " Gundo
+let g:gundo_prefer_python3 = 1
 nnoremap <Leader>u :GundoToggle<CR>
 
 " redl
