@@ -127,6 +127,3 @@
 [submodule "bundle/jedi-vim"]
 	path = bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim
-[submodule "bundle/gundo.vim"]
-	path = bundle/gundo.vim
-	url = git@github.com:sjl/gundo.vim.git
