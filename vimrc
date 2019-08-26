@@ -248,10 +248,6 @@ nnoremap <Leader>M :CtrlPBranch<CR>
 nnoremap <Leader>fu :CtrlPFunky<Cr>
 nnoremap <Leader>fU :execute 'CtrlPFunky ' . expand('<cword>')<CR>
 
-" Gundo
-let g:gundo_prefer_python3 = 1
-nnoremap <Leader>u :GundoToggle<CR>
-
 " redl
 nnoremap <Leader>rr :Repl<CR>
 nnoremap <Leader>rh :ReplHere<CR>
@@ -312,3 +308,10 @@ let vim_markdown_preview_github=1
 
 " jshint-vim: remove highlighting
 let g:JSHintHighlightErrorLine = 1
+
+" undotree
+nnoremap <Leader>u :UndotreeToggle<CR>
+
+" airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
