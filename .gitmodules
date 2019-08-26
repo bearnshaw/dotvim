@@ -76,9 +76,6 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
-[submodule "bundle/vim-powerline"]
-	path = bundle/vim-powerline
-	url = git://github.com/Lokaltog/vim-powerline.git
 [submodule "bundle/vim-python-test-runner"]
 	path = bundle/vim-python-test-runner
 	url = https://github.com/JarrodCTaylor/vim-python-test-runner
