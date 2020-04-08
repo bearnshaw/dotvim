@@ -291,12 +291,6 @@ nnoremap<Leader>nc :NosetestClass<CR>
 nnoremap<Leader>nm :NosetestMethod<CR>
 nnoremap<Leader>rt :RerunLastTests<CR>
 
-" python mode
-let g:pymode_doc = 0
-let g:pymode_rope = 0
-let g:pymode_run = 0
-let g:pymode_python = 'python3'
-
 " jedi
 let g:jedi#use_splits_not_buffers = "top"
 
