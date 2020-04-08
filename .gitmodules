@@ -10,6 +10,7 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = https://github.com/corntrace/bufexplorer.git
+	ignore = untracked
 [submodule "bundle/bufkill.vim"]
 	path = bundle/bufkill.vim
 	url = https://github.com/vim-scripts/bufkill.vim.git
@@ -34,12 +35,14 @@
 [submodule "bundle/open-browser-github.vim"]
 	path = bundle/open-browser-github.vim
 	url = https://github.com/tyru/open-browser-github.vim.git
+	ignore = untracked
 [submodule "bundle/open-browser.vim"]
 	path = bundle/open-browser.vim
 	url = https://github.com/tyru/open-browser.vim.git
 [submodule "bundle/paredit.vim"]
 	path = bundle/paredit.vim
 	url = git://github.com/vim-scripts/paredit.vim.git
+	ignore = untracked
 [submodule "bundle/rainbow_parentheses.vim"]
 	path = bundle/rainbow_parentheses.vim
 	url = git://github.com/kien/rainbow_parentheses.vim.git
@@ -58,6 +61,7 @@
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
 	url = git://github.com/guns/vim-clojure-static.git
+	ignore = untracked
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
@@ -79,6 +83,7 @@
 [submodule "bundle/vim-python-test-runner"]
 	path = bundle/vim-python-test-runner
 	url = https://github.com/JarrodCTaylor/vim-python-test-runner
+	ignore = untracked
 [submodule "bundle/vim-redl"]
 	path = bundle/vim-redl
 	url = git://github.com/dgrnbrg/vim-redl.git
@@ -106,6 +111,7 @@
 [submodule "bundle/vim-leiningen"]
 	path = bundle/vim-leiningen
 	url = git://github.com/tpope/vim-leiningen.git
+	ignore = untracked
 [submodule "bundle/vim-cython"]
 	path = bundle/vim-cython
 	url = https://github.com/tshirtman/vim-cython.git
@@ -124,6 +130,7 @@
 [submodule "bundle/vim-conda"]
 	path = bundle/vim-conda
 	url = https://github.com/ryanfreckleton/vim-conda
+	ignore = untracked
 [submodule "bundle/jedi-vim"]
 	path = bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim
