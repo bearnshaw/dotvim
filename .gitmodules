@@ -140,6 +140,3 @@
 [submodule "bundle/undotree"]
 	path = bundle/undotree
 	url = https://github.com/mbbill/undotree.git
-[submodule "bundle/SimpylFold"]
-	path = bundle/SimpylFold
-	url = https://github.com/tmhedberg/SimpylFold
