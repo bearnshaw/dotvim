@@ -124,16 +124,6 @@
 [submodule "bundle/jshint.vim"]
 	path = bundle/jshint.vim
 	url = https://github.com/wookiehangover/jshint.vim.git
-[submodule "bundle/python-mode"]
-	path = bundle/python-mode
-	url = https://github.com/python-mode/python-mode.git
-[submodule "bundle/vim-conda"]
-	path = bundle/vim-conda
-	url = https://github.com/ryanfreckleton/vim-conda
-	ignore = untracked
-[submodule "bundle/jedi-vim"]
-	path = bundle/jedi-vim
-	url = https://github.com/davidhalter/jedi-vim
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
