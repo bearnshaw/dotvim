@@ -1,19 +1,3 @@
-" An example for a vimrc file.
-"
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2011 Apr 15
-"
-" To use it, copy it to
-"     for Unix and OS/2:  ~/.vimrc
-"	      for Amiga:  s:.vimrc
-"  for MS-DOS and Win32:  $VIM\_vimrc
-"	    for OpenVMS:  sys$login:.vimrc
-
-" When started as "evim", evim.vim will already have done these settings.
-if v:progname =~? "evim"
-  finish
-endif
-
 " Configuration file for vim
 set modelines=0		" CVE-2007-2438
 
@@ -34,9 +18,6 @@ set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
-
-" For Win32 GUI: remove 't' flag from 'guioptions': no tearoff menu entries
-" let &guioptions = substitute(&guioptions, "t", "", "g")
 
 " Don't use Ex mode, use Q for formatting
 map Q gq
@@ -103,11 +84,6 @@ endif
 au BufWrite /private/tmp/crontab.* set nowritebackup
 " Don't write backup file if vim is being called by "chpass"
 au BufWrite /private/etc/pw.* set nowritebackup
-
-
-"
-" end of system vimrc
-"
 
 
 " pathogen
@@ -216,11 +192,11 @@ nnoremap <Leader>qc :cclose<CR>
 au BufNewFile,BufRead *.edn set filetype=clojure
 au FileType clojure call PareditInitBuffer()
 
-" rainbow parentheses
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
+" " rainbow parentheses
+" au VimEnter * RainbowParenthesesToggle
+" au Syntax * RainbowParenthesesLoadRound
+" au Syntax * RainbowParenthesesLoadSquare
+" au Syntax * RainbowParenthesesLoadBraces
 
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
@@ -248,25 +224,25 @@ nnoremap <Leader>M :CtrlPBranch<CR>
 nnoremap <Leader>fu :CtrlPFunky<Cr>
 nnoremap <Leader>fU :execute 'CtrlPFunky ' . expand('<cword>')<CR>
 
-" redl
-nnoremap <Leader>rr :Repl<CR>
-nnoremap <Leader>rh :ReplHere<CR>
-nnoremap <Leader>rq :Req<CR>
+" " redl
+" nnoremap <Leader>rr :Repl<CR>
+" nnoremap <Leader>rh :ReplHere<CR>
+" nnoremap <Leader>rq :Req<CR>
 
-" fugitive helpers
-nnoremap <Leader>gb :Gblame<CR>
-nnoremap <Leader>gd :Gdiff<CR>
-nnoremap <Leader>gg :Ggrep 
-nnoremap <Leader>gG :execute 'Ggrep ' . expand('<cword>')<CR>
-nnoremap <Leader>gl :Glog<CR>
-nnoremap <Leader>gL :Glog --<CR>
-nnoremap <Leader>gm :Gmove 
-nnoremap <Leader>gM :Gmove! 
-nnoremap <Leader>gp :Git push<CR>
-nnoremap <Leader>gP :Git push -f<CR>
-nnoremap <Leader>gr :Gremove<CR>
-nnoremap <Leader>gR :Gremove!<CR>
-nnoremap <Leader>gs :Gstatus<CR>
+" " fugitive helpers
+" nnoremap <Leader>gb :Gblame<CR>
+" nnoremap <Leader>gd :Gdiff<CR>
+" nnoremap <Leader>gg :Ggrep 
+" nnoremap <Leader>gG :execute 'Ggrep ' . expand('<cword>')<CR>
+" nnoremap <Leader>gl :Glog<CR>
+" nnoremap <Leader>gL :Glog --<CR>
+" nnoremap <Leader>gm :Gmove 
+" nnoremap <Leader>gM :Gmove! 
+" nnoremap <Leader>gp :Git push<CR>
+" nnoremap <Leader>gP :Git push -f<CR>
+" nnoremap <Leader>gr :Gremove<CR>
+" nnoremap <Leader>gR :Gremove!<CR>
+" nnoremap <Leader>gs :Gstatus<CR>
 
 " ag helpers
 nnoremap <Leader>a :Ag 

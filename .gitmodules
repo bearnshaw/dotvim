@@ -26,9 +26,6 @@
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
-[submodule "bundle/mustache.vim"]
-	path = bundle/mustache.vim
-	url = git://github.com/juvenn/mustache.vim.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -39,38 +36,15 @@
 [submodule "bundle/open-browser.vim"]
 	path = bundle/open-browser.vim
 	url = https://github.com/tyru/open-browser.vim.git
-[submodule "bundle/paredit.vim"]
-	path = bundle/paredit.vim
-	url = git://github.com/vim-scripts/paredit.vim.git
-	ignore = untracked
-[submodule "bundle/rainbow_parentheses.vim"]
-	path = bundle/rainbow_parentheses.vim
-	url = git://github.com/kien/rainbow_parentheses.vim.git
-[submodule "bundle/rename.vim"]
-	path = bundle/rename.vim
-	url = git://github.com/danro/rename.vim.git
 [submodule "bundle/vim-abolish"]
 	path = bundle/vim-abolish
 	url = https://github.com/tpope/vim-abolish.git
 [submodule "bundle/vim-ansible-yaml"]
 	path = bundle/vim-ansible-yaml
 	url = https://github.com/chase/vim-ansible-yaml.git
-[submodule "bundle/vim-classpath"]
-	path = bundle/vim-classpath
-	url = git://github.com/tpope/vim-classpath.git
-[submodule "bundle/vim-clojure-static"]
-	path = bundle/vim-clojure-static
-	url = git://github.com/guns/vim-clojure-static.git
-	ignore = untracked
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/kchmck/vim-coffee-script.git
-[submodule "bundle/vim-fireplace"]
-	path = bundle/vim-fireplace
-	url = git://github.com/tpope/vim-fireplace.git
-[submodule "bundle/vim-fugitive"]
-	path = bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-latex-suite"]
 	path = bundle/vim-latex-suite
 	url = https://github.com/gerw/vim-latex-suite.git
@@ -84,34 +58,15 @@
 	path = bundle/vim-python-test-runner
 	url = https://github.com/JarrodCTaylor/vim-python-test-runner
 	ignore = untracked
-[submodule "bundle/vim-redl"]
-	path = bundle/vim-redl
-	url = git://github.com/dgrnbrg/vim-redl.git
-[submodule "bundle/vim-repeat"]
-	path = bundle/vim-repeat
-	url = git://github.com/tpope/vim-repeat.git
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
-[submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
-	url = git://github.com/tpope/vim-surround.git
-[submodule "bundle/vim-unimpaired"]
-	path = bundle/vim-unimpaired
-	url = git://github.com/tpope/vim-unimpaired.git
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab.git
 [submodule "bundle/vim-commentary"]
 	path = bundle/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
-[submodule "bundle/vim-dispatch"]
-	path = bundle/vim-dispatch
-	url = git://github.com/tpope/vim-dispatch.git
-[submodule "bundle/vim-leiningen"]
-	path = bundle/vim-leiningen
-	url = git://github.com/tpope/vim-leiningen.git
-	ignore = untracked
 [submodule "bundle/vim-cython"]
 	path = bundle/vim-cython
 	url = https://github.com/tshirtman/vim-cython.git
